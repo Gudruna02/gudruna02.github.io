@@ -1,12 +1,10 @@
-* {
-    box-sizing: border-box;
-}
-h1 {
+
+.prbox {
     border: 3px solid purple;
     display: block;
 }
 .box {
-    padding: 2em solid hotpink;
+    padding: 2em;
     border: 6px solid salmon;
     margin-top: 1em;
     color: crimson;
@@ -50,3 +48,73 @@ h4 {
 div {
     display: block;
 }
+.boxmynd {
+    width:100px;
+    height:150px;
+    border-radius: 15%;
+    float:left;
+    padding-right:10px;
+}   
+.dashbox{
+    border: 3px dashed blueviolet;
+    padding:10px;
+}
+.bigboi{
+    float:left;
+    font-size: 50px;
+}
+.flexcolumn{
+    display:flex;
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: rgb(68, 0, 255); 
+}
+.box2 {
+	font-size: 1.2em;
+	height: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* FLEXBOX */
+
+.row {
+	display: flex;
+	flex-flow: row-reverse;
+}
+.row div {
+	/*flex-flow: 1;
+	flex-shrink: 1;
+	flex-basis: 1em;*/
+
+	flex: 1 1 1em;
+	margin: 0 0 1em 0;
+}
+.col {
+	display: flex;
+	flex-flow: column-reverse;
+	margin: 0 0 1em 0;
+}
+
