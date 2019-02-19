@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 60em;
+    margin: 0% auto;
+    border: solid black;
+}
+header {
+    border: 1px solid black,
+}
+nav {
+    border: 1px solid black;
+}
+main {
+    border: 1px solid black;
+}
+.adaltext {
+    border: 3px;
+    padding: 1em;
+}
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em 0;
+    list-style-type: none;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "vinstri midja haegri"
+}
+.haegri {
+    grid-area: haegri;
+    border: 1px solid black;
+    padding: 0 1em;
+}
+.vinstri {
+    grid-area: vinstri;
+    border: 1px solid black;
+    padding: 0 1em;
+}
+.midja {
+    grid-area: midja;
+    border: 1px solid black;
+    padding: 0 1em;
+}

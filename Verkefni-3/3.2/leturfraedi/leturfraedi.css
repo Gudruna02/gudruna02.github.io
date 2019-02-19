@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 60em;
+    margin: 0% auto;
+    border: solid black;
+}
+header {
+    border: 1px solid black,
+}
+nav {
+    border: 1px solid black;
+}
+main {
+    border: 1px solid black;
+}
+.adaltext {
+    border: 3px;
+    padding: 0.3em 0;
+    margin: 0;
+    font-family: 'Felipa', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: .5em 0;
+    list-style-type: none;
+}
+
+.haegri {
+    grid-area: haegri;
+    border: 1px solid black;
+    padding: 0 1em;
+}
+.upp {
+    grid-area: upp;
+    border: 1px solid black;
+    padding: 0 1em;
+}
+.nidur {
+    grid-area: nidur;
+    border: 1px solid black;
+    padding: 0 1em;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "upp   upp   haegri"
+    "nidur nidur haegri"
+}
