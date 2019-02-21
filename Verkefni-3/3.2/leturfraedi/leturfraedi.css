@@ -6,6 +6,15 @@ body {
     max-width: 60em;
     margin: 0% auto;
     border: solid black;
+    background: linear-gradient(rgb(56, 0, 26),rgb(255, 88, 205),rgb(56,0,26));
+}
+a:link {
+    color: rgb(0, 0, 0);
+}
+a:visited {
+    color: rgb(49, 49, 49);
+    background-color: transparent;
+    text-decoration: none;
 }
 header {
     border: 1px solid black,
@@ -23,6 +32,7 @@ main {
     font-family: 'Felipa', cursive;
     font-size: 5em;
     text-align: center;
+    background: linear-gradient(rgb(253, 114, 0),rgb(250, 182, 137));
 }
 .topmenu {
     display: flex;
@@ -31,22 +41,26 @@ main {
     margin: 0;
     padding: .5em 0;
     list-style-type: none;
+    background: linear-gradient(rgb(78, 38, 0),rgb(255, 145, 0),rgb(78, 38, 0));
 }
 
 .haegri {
     grid-area: haegri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(rgb(255, 101, 62),rgb(255, 133, 117),rgb(255, 101, 62),rgb(255, 133, 117),rgb(255, 101, 62),rgb(255, 133, 117),rgb(255, 101, 62),rgb(255, 133, 117));
 }
 .upp {
     grid-area: upp;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(rgb(255, 124, 48),rgb(255, 218, 149));
 }
 .nidur {
     grid-area: nidur;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(rgb(255, 218, 149),rgb(255, 124, 48));
 }
 .content {
     display: grid;

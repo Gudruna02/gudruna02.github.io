@@ -5,7 +5,16 @@ body {
     max-width: 60em;
     margin: 0% auto;
     border: solid black;
+    background: linear-gradient(rgb(0, 0, 0),rgb(82, 0, 0),rgb(150, 0, 0),rgb(82, 0, 0),black)
 }
+a:link {
+    color: rgb(0, 0, 0);
+}
+a:visited {
+    color: rgb(49, 49, 49);
+    background-color: transparent;
+    text-decoration: none;
+  }
 header {
     border: 1px solid black,
 }
@@ -23,6 +32,7 @@ main {
     font-size: 5em;
     text-align: center;
     margin: 0;
+    background: linear-gradient(black,rgb(105, 33, 0),rgb(230, 106, 23),rgb(255, 159, 95),rgb(202, 107, 18),rgb(99, 31, 0),black);
 }
 .topmenu {
     display: flex;
@@ -31,6 +41,7 @@ main {
     margin: 0;
     padding: .5em 0;
     list-style-type: none;
+    background: linear-gradient(black,rgb(255, 106, 61),rgb(255, 255, 255),rgb(255, 106, 61),black);
 }
 .content {
     display: grid;
@@ -44,14 +55,20 @@ main {
     grid-area: haegri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(black,rgb(105, 33, 0),rgb(230, 106, 23),rgb(255, 159, 95),rgb(202, 107, 18),rgb(99, 31, 0),black);
+    color: black
 }
 .vinstri {
     grid-area: vinstri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(black,rgb(105, 33, 0),rgb(230, 106, 23),rgb(255, 159, 95),rgb(202, 107, 18),rgb(99, 31, 0),black);
+
 }
 .nidur {
     grid-area: nidur;
     border: 1px solid black;
     padding: 0 1em;
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0),rgb(82, 0, 0),rgb(150, 0, 0),rgb(82, 0, 0),black)
 }

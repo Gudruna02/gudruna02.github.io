@@ -5,6 +5,7 @@ body {
     max-width: 60em;
     margin: 0% auto;
     border: solid black;
+    background: linear-gradient(rgb(62, 139, 255),rgb(127, 204, 255),rgb(255, 182, 255),rgb(255, 176, 220),rgb(255, 168, 255),rgb(127, 204, 255),rgb(62, 139, 255));
 }
 header {
     border: 1px solid black,
@@ -23,6 +24,7 @@ main {
     font-size: 5em;
     text-align: center;
     margin: 0;
+    background: linear-gradient(rgb(0, 183, 255),rgb(0, 255, 191), rgb(124, 213, 255))
 }
 .topmenu {
     display: flex;
@@ -31,6 +33,7 @@ main {
     margin: 0;
     padding: .5em 0;
     list-style-type: none;
+    background: linear-gradient(rgb(215, 57, 255),rgb(231, 154, 255),rgb(210, 62, 255))
 }
 .content {
     display: grid;
@@ -44,14 +47,18 @@ main {
     grid-area: haegri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(rgb(255, 96, 176),rgb(255, 177, 220),rgb(255, 96, 184));
+
 }
 .vinstri {
     grid-area: vinstri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(rgb(142, 255, 142),rgb(171, 255, 241),rgb(153, 255, 153))
 }
 .upp {
     grid-area: upp;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(rgb(117, 117, 255),rgb(139, 222, 255),rgb(147, 147, 255));
 }

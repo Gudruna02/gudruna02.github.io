@@ -5,6 +5,15 @@ body {
     max-width: 60em;
     margin: 0% auto;
     border: solid black;
+    background: radial-gradient(yellow,rgb(255, 166, 0),rgb(255, 123, 0),rgb(255, 81, 0),red,rgb(252, 0, 105),rgb(207, 0, 190),rgb(113, 0, 136),rgb(85, 0, 165),rgb(0, 3, 201),rgb(0, 140, 255),rgb(0, 185, 130),rgb(0, 216, 0));
+}
+a:link {
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color: rgb(185, 185, 185);
+    background-color: transparent;
+    text-decoration: none;
 }
 header {
     border: 1px solid black,
@@ -31,6 +40,7 @@ main {
     margin: 0;
     padding: .5em 0;
     list-style-type: none;
+    background: black;
 }
 .content {
     display: grid;
@@ -44,14 +54,18 @@ main {
     grid-area: haegri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(yellow,rgb(255, 166, 0),rgb(255, 123, 0),rgb(255, 81, 0),red,rgb(252, 0, 105),rgb(207, 0, 190),rgb(113, 0, 136),rgb(85, 0, 165),rgb(0, 3, 201),rgb(0, 140, 255),rgb(0, 185, 130),rgb(0, 216, 0));
 }
 .vinstri {
     grid-area: vinstri;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(yellow,rgb(255, 166, 0),rgb(255, 123, 0),rgb(255, 81, 0),red,rgb(252, 0, 105),rgb(207, 0, 190),rgb(113, 0, 136),rgb(85, 0, 165),rgb(0, 3, 201),rgb(0, 140, 255),rgb(0, 185, 130),rgb(0, 216, 0));
 }
 .upp {
     grid-area: upp;
     border: 1px solid black;
     padding: 0 1em;
+    background: linear-gradient(yellow,rgb(255, 166, 0),rgb(255, 123, 0),rgb(255, 81, 0),red,rgb(252, 0, 105),rgb(207, 0, 190),rgb(113, 0, 136),rgb(85, 0, 165),rgb(0, 3, 201),rgb(0, 140, 255),rgb(0, 185, 130),rgb(0, 216, 0));
+
 }
