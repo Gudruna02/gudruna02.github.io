@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Krub|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+body{
+    background: rgb(48, 39, 129);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: rgb(56, 219, 105);
+}
+
+a:hover{
+    color: rgb(122, 194, 243);
+}
+
+a:active{
+    color: rgb(15, 145, 91);
+}
+
+.header{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.fyrirsogn{
+    color: white;
+    font-family: 'Krub';
+}
+
+.titil{
+    text-align: end;
+    color: white;
+}
+
+.verkefni41{
+    color: rgb(100, 167, 211);
+}
+
+.midja{
+    background: linear-gradient(rgb(70, 20, 128), rgb(59, 207, 182));
+    text-align: center;
+}
+
+.meginmal{
+    max-width: 60em;
+    margin: 0 auto;
+
+    font-family: source sans pro;
+    padding: 1em;
+}
+
+.meginmal h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Krub';
+
+}
+
+.meginmal blockquote{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.footer{
+    max-width: 60em;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav"
+}
+
+li a{
+    color: white;
+}
+
+.footer dt{
+    color:rgb(87, 230, 175);
+}
+
+.gjg{
+    max-width: 60em;
+    margin: 0 auto;
+    color: white;
+}
