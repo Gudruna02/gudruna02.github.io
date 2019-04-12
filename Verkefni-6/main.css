@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Krub|Lobster|Lobster+Two');
+
+
+body{
+    background: radial-gradient(violet,skyblue);
+    color: white;
+    font-family: 'Krub', cursive;
+    text-align: center;
+    
+}
+
+.ummigsection{
+    background: radial-gradient(rgb(15, 31, 255),rgb(105, 255, 142));
+    padding: 2em;
+}
+
+.ahuga{
+    background: radial-gradient(rgb(15, 31, 255),rgb(105, 255, 142));
+    padding: 2em;
+}
+
+.svg1{
+    height: 9em;
+    width: 9em;
+}
+
+.svg2{
+    height: 9em;
+    width: 9em;
+}
+
+.svg3{
+    height: 9em;
+    width: 9em;
+}
+
+.crownsvg{
+    height: 9em;
+    width: 9em;
+    animation: crownsvg 1s infinite alternate ease-in-out
+}
+@keyframes crownsvg{
+    from{
+        transform:rotate(-25deg);        
+    }
+    to{
+        transform:rotate(25deg);
+    }
+}
+.fyrirsogn{
+    color: radial-gradient(white,red,white);
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+}
+
+header{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.haus{
+    text-align: center;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+section{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.menu h3{
+    text-align: center;
+}
+
+.efnisyfirlit{
+    background: radial-gradient(rgb(15, 31, 255),rgb(105, 255, 142));
+    height: 20em;
+    padding: 2em;
+}
+
+.efnititle{
+    font-size: 2em;
+    text-align: center;
+}
+
+.menu ul {
+    font: bold 11px 'Krub', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    background: red;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background: white;
+    color: red;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.menu li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+.menu li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+
+
+.wave{
+    width: 45em;
+}
+
+.pika{
+    width: 45em;
+}
+
+.ruv{
+    width: 22.5em;
+}
+
+@keyframes mbl{
+    0%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+    50%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+}
+
+.mbl{
+    animation: mbl 6s infinite 2s linear;
+    width: 22.5em;
+    
+}
+
+@keyframes mbl2{
+    0%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+    50%{
+        transform: rotate(xx);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+}
+
+.mbl2{
+    animation: mbl2 3s infinite 0s linear;
+    width: 22.5em;
+}
+
+.mbl2text{
+    font-style: italic;
+}
+
+li{
+    text-decoration: none;
+}
+
+.verkefnisection{
+    color: white;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "h2 h2"
+    "nav nav"
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: darkviolet;
+}
+
+li a:active{
+    color: blue;
+}
+
+.navpila a{
+    position: fixed;
+    text-decoration: none;
+    bottom: 30px;
+    right: 30px;
+
+    background: white;
+    color: plum;
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    font-size: 3em;
+    text-align: center;
+}
+
+.navpila a:hover{
+    background: whitesmoke;
+    color: skyblue;
+}
+
+.navpila a:active{
+    background: whitesmoke;
+    color: steelblue;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+iframe{
+    max-width: 100%;
+    height: auto;
+}
+
+.kiwi{
+    max-width: 20%;
+    height: auto;
+}
+
+.banana{
+    max-width: 20%;
+    height: auto;
+}
+
+@media only screen and (max-width:668px){
+    .efnis{
+        position:fixed;
+        bottom:0px;
+        z-index: 99999999;
+    }
+}
+
+.run {
+    width: 100px;
+    height: 40x;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-direction: right; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: right;  
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; right:900px; top:0px;}
+    50%  {background-color:blue; left:1100px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; right:900px; top:0px;}
+    50%  {background-color:blue; left:1100px; top:0px;}
+}
+
+nav {
+    overflow: hidden;
+}
